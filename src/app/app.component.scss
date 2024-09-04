@@ -7,6 +7,16 @@
 
 app-menu{
     background-color: black;
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 56px;
+    padding-right: 20px;
+    padding-top: 0px;
 }
 
 app-social-media{
@@ -14,4 +24,13 @@ app-social-media{
     position: fixed;
     right: 40px;
     bottom: 40px;
+}
+
+.container-main{
+//    background-color: fuchsia;
+    height: 862px;
+    padding-top: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

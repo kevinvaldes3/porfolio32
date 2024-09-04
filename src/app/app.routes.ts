@@ -1,4 +1,4 @@
-import { RouterModule, Routes } from '@angular/router';
+import { RouterModule, Routes , ExtraOptions } from '@angular/router';
 import { InicioComponent } from './page/component/inicio/inicio.component';
 import { NgModule } from '@angular/core';
 import { AboutMeComponent } from './page/component/about-me/about-me.component';
@@ -14,6 +14,12 @@ export const routes: Routes = [
     {path:'porfolio', component:PorfolioComponent},
     {path:'contacto', component:ContactoComponent}
 ];
+
+export const routerOptions : ExtraOptions={
+    scrollPositionRestoration:'enabled',
+    anchorScrolling:'enabled',
+}
+
 @NgModule({
     imports: [RouterModule.forChild(routes)],
     exports: [RouterModule]

@@ -15,10 +15,10 @@ export class ButtonsComponent {
 public classColor: string='';
 
 public ngOnInit() {
-  console.log(this.backgroundColor);
+  // console.log(this.backgroundColor);
   this.classColor = 'background-color:' + this.backgroundColor+';';
   this.classColor += 'color:'+ this.texColor+';';
-  console.log(this.classColor);
+  // console.log(this.classColor);
 }
 
 }

@@ -1,7 +1,21 @@
 <!-- <div *NgIf="!showPagina"></div> -->
-a
 <app-menu></app-menu>
-<router-outlet></router-outlet>
-<div class="social-media">
+<div class="container-main" id="inicio" #inicio>
+    <app-inicio></app-inicio>
+</div>
+<div class="container-main" id="about">
+    <app-about-me></app-about-me>
+</div>
+<div class="container-main" id="servicio">
+    <app-servicios></app-servicios>
+</div>
+<div class="container-main" id="portafolio">
+    <app-porfolio></app-porfolio>
+</div>
+<div class="container-main" id="contacto">
+    <app-contacto></app-contacto>
+</div>
+<!-- <router-outlet></router-outlet> -->
+<div class="social-media" id="">
     <app-social-media></app-social-media>
 </div>

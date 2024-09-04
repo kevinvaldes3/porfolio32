@@ -5,7 +5,7 @@
 
 .container-inicio {
    display: flex;
-    justify-content: center;
+  justify-content: center;
 }
 
 .title {
@@ -29,24 +29,18 @@
   font-size: 50px;
 }
 
-img {
-  width: 100px;
-  height: 100px;
-}
+// img {
+//   width: 100px;
+//   height: 100px;
+// }
 
 #fotoBanner {
-  width: 565px;
-  height: 902px;
-  background-image: url("./../../../../../src/assets/imagenMia.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
   position: absolute;
-  // z-index: 1;
   display: flex;
   justify-content: center;
   left: 34%;
   opacity: 15%;
+  top:24px;
 }
 
 .container-button{
@@ -56,37 +50,3 @@ img {
   top: 28vw;
 
 }
-
-.btn{
-  // width: 158px;
-  // height: 47.86px;
-  // background-color: rgba(241, 238, 238, 0);
-  // border-radius: 50px;
-  // border:  2px solid #ffffff;
-  // font-weight: bold !important;
-  // font-size: 18px;
-}
-
-.btnMyWork{
-//   color: #ffffff;
-//   position: absolute;
-//   z-index: 11;
-//   top: 56%;
-//   left: 37%;
-}
-
-.btnMyWork:hover, .btnContrat:hover{
-  // background-color:#FCA311;
-  // color: #FFFFFF;
-  // cursor: pointer;
-}
-
-.btnContrat{
-  // background-color:#ffffff;
-  // color: #FCA311;
-  // position: absolute;
-  // z-index: 11;
-  // top: 56%;
-  // left: 55%;
-}
-
